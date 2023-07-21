@@ -1,4 +1,5 @@
 import { Title, TitleSm } from "@/components/common/Title"
+import Link from "next/link"
 import React from "react"
 import { AiFillBehanceCircle, AiFillInstagram, AiFillLinkedin } from "react-icons/ai"
 import { BiUserCircle } from "react-icons/bi"
@@ -41,17 +42,26 @@ const Contact = () => {
                 </div>
               </div>
               <ul>
-                <li className='icon'>
-                  <BsFacebook size={25} />
+              <h3>CONNECT</h3>
+              <li >
+                  <Link  className='icon' href='https://www.facebook.com/people/R-Tech-QA-USA-Inc/100094175331666/' target="_blank">
+                    <BsFacebook size={25} />
+                  </Link>
                 </li>
-                <li className='icon'>
-                  <AiFillBehanceCircle size={25} />
+                <li>
+                  <Link  className='icon' href='/'>
+                    <AiFillBehanceCircle size={25} />
+                  </Link>
                 </li>
-                <li className='icon'>
-                  <AiFillInstagram size={25} />
+                <li>
+                  <Link  className='icon' href='/'>
+                    <AiFillInstagram size={25} />
+                  </Link>
                 </li>
-                <li href= "https://www.linkedin.com/company/r-tech-qa-pakistan" target="_blank" className='icon'>
-                  <AiFillLinkedin size={25} />
+                <li>
+                  <Link  className='icon' href='https://www.linkedin.com/company/r-tech-qa-pakistan' target="_blank">
+                    <AiFillLinkedin size={25} />
+                  </Link>
                 </li>
               </ul>
             </div>
