@@ -4,7 +4,7 @@ import { Title, TitleSm } from "@/components/common/Title"
 import Head from "next/head"
 import { useRouter } from "next/router"
 import React from "react"
-
+import img from '../../public/images/e2.jpg'
 const SinglePost = () => {
   const router = useRouter()
   const { id } = router.query
@@ -22,7 +22,7 @@ const SinglePost = () => {
             {/* <br /> */}
             <Title title="Web Development" className='title-bg' />
             <div className='img py'>
-              <img src={post.cover} alt="" width='100%' height='100%' className='round' />
+              <img src={img} alt="" width='100%' height='100%' className='round' />
             </div>
             <div className='desc'>
               <TitleSm title='Our organization strives to stay ahead of the curve in the constantly evolving field of web development.' />
