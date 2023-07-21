@@ -61,7 +61,7 @@ const Footer = () => {
               <h3>CONNECT</h3>
               <div className='connect'>
                 <li>
-                  <Link href='/'>
+                  <Link href='https://www.facebook.com/people/R-Tech-QA-USA-Inc/100094175331666/' target="_blank">
                     <BsFacebook size={25} />
                   </Link>
                 </li>
