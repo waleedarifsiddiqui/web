@@ -50,7 +50,7 @@ const Contact = () => {
                 <li className='icon'>
                   <AiFillInstagram size={25} />
                 </li>
-                <li className='icon'>
+                <li href= "https://www.linkedin.com/company/r-tech-qa-pakistan" target="_blank" className='icon'>
                   <AiFillLinkedin size={25} />
                 </li>
               </ul>
