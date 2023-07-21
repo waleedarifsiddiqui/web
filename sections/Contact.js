@@ -1,6 +1,6 @@
 import { Title, TitleSm } from "@/components/common/Title"
 import Link from "next/link"
-import React from "react"
+import { useRef } from "react"
 import { AiFillBehanceCircle, AiFillInstagram, AiFillLinkedin } from "react-icons/ai"
 import { BiUserCircle } from "react-icons/bi"
 import { BsFacebook } from "react-icons/bs"
@@ -8,6 +8,12 @@ import { FiHeadphones, FiHelpCircle } from "react-icons/fi"
 import { IoLocationOutline } from "react-icons/io5"
 
 const Contact = () => {
+  const form = useRef()
+
+  const sendEmail = () => {
+
+  };
+
   return (
     <>
       <section className='contact bg-top'>
@@ -69,15 +75,15 @@ const Contact = () => {
               <TitleSm title='Make an online enquiry' />
               <p className='desc-p'>Got questions? Ideas? Fill out the form below to get our proposal. </p>
 
-              <form>
+              <form ref={form} onSubmit={sendEmail}>
                 <div className='grid-2'>
                   <div className='inputs'>
                     <span>Name</span>
-                    <input type='text' />
+                    <input type='text' placeholder="Full Name" />
                   </div>
                   <div className='inputs'>
                     <span>Email</span>
-                    <input type='text' />
+                    <input type='email' placeholder="Email"/>
                   </div>
                 </div>
                 <div className='grid-2'>
@@ -94,7 +100,7 @@ const Contact = () => {
                   <span>TELL US A BIT ABOUT YOUR PROJECT*</span>
                   <textarea cols='30' rows='10'></textarea>
                 </div>
-                <button className='button-primary'>Submit</button>
+                <button type="submit" className='button-primary'>Submit</button>
               </form>
             </div>
           </div>
