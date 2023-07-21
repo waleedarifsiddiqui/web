@@ -26,10 +26,10 @@ const SinglePost = () => {
             </div>
             <div className='desc'>
               <TitleSm title='Our organization strives to stay ahead of the curve in the constantly evolving field of web development.' />
-              <p className='desc-p'>{post.para1}</p>
-              <p className='desc-p'>{post.para2}</p>
-              <p className='desc-p'>{post.para3}</p>
-              <p className='desc-p'>{post.para4}</p>
+              <p className='desc-p'>We take great pride in delivering customized web development services tailored to meet the unique needs of our clients. Our team is composed of highly skilled developers who use the latest technology and best practices to transform your vision into a reality. It entails creating an intuitive, secure, and functional website utilizing many technologies and programming languages such as HTML, CSS, JavaScript and React.</p>
+              <p className='desc-p'>From designing captivating interfaces that reflect brand identity to integrating robust functionalities into every corner of a website's architecture; they leave no stone unturned in providing impeccable end-to-end solutions that resonate with client objectives – rendering null room for dissatisfaction or compromise.</p>
+              <p className='desc-p'>We understand that each organization has distinct requirements, so we create websites that not only reflect your identity, but also deliver seamless functionality and an exceptional user experience. We are committed to providing rigorous planning, flawless execution, and continuous communication with our clients, ensuring that each project receives our undivided attention from start to finish</p>
+              <p className='desc-p'>We understand that each organization has distinct requirements, so we create websites that not only reflect your identity, but also deliver seamless functionality and an exceptional user experience. We are committed to providing rigorous planning, flawless execution, and continuous communication with our clients, ensuring that each project receives our undivided attention from start to finish.</p>
             </div>
           </div>
           <Banner />
